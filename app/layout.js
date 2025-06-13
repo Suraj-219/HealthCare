@@ -1,0 +1,52 @@
+import { Inter } from "next/font/google";
+import "./globals.css";
+import { ThemeProvider } from "@/components/themeprovider";
+import Header from "@/components/header";
+import { ClerkProvider } from "@clerk/nextjs";
+import { dark } from "@clerk/themes";
+import { Toaster } from "sonner";
+
+const inter = Inter({ subsets: ["latin"] });
+
+export const metadata = {
+  title: "HealthCare - Doctors Appointment App",
+  description: "Connect with doctors and book appointments",
+};
+
+export default function RootLayout({ children }) {
+  return (
+    <ClerkProvider 
+      appearance={{
+        baseTheme: dark
+      }}
+    >  
+      <html lang="en" suppressHydrationWarning>
+        <head>
+          <meta name="viewport" content="width=device-width, initial-scale=1" />
+          <link rel="icon" href="/favicon.ico" type="image/x-icon" />
+          <link rel="icon" type="image/png" sizes="192x192" href="/android-chrome-192x192.png" />
+        </head>
+        <body
+          className={`${inter.className}`}
+          suppressHydrationWarning
+        >
+          <ThemeProvider
+            attribute="class"
+            defaultTheme="dark"
+            enableSystem
+            disableTransitionOnChange
+          >
+            <Header />
+            <main className="min-h-screen">{children}</main>
+            <Toaster richColors />
+            <footer className="bg-muted/50 py-12">
+              <div className="container mx-auto px-4 text-center text-gray-200">
+                <p>&copy; 2025 HealthCare. All rights reserved.</p>
+              </div>
+            </footer>
+          </ThemeProvider>
+        </body>
+      </html>
+    </ClerkProvider>
+  );
+}
