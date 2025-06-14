@@ -22,7 +22,9 @@ export default function RootLayout({ children }) {
     publishableKey: process.env.NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY,
     appearance: {
       baseTheme: dark
-    }
+    },
+    signInUrl: '/sign-in',
+    signUpUrl: '/sign-up'
   };
 
   // If we don't have the key in production, we'll render without Clerk
