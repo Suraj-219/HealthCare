@@ -21,7 +21,7 @@ export default function Home() {
               "
               >Health Care Made Simple</Badge>
                   <h1
-                    className="text-4xl md:text-5xl lg:text-6xl font-black text-center relative z-10 bg-clip-text text-transparent"
+                    className="text-6xl md:text-5xl lg:text-6xl font-black text-center relative z-10 bg-clip-text text-transparent"
                     style={{
                       backgroundImage: `
                         linear-gradient(120deg, #00fff7, #8a00ff, #ff00aa)`,
@@ -248,7 +248,7 @@ export default function Home() {
                     size="lg"
                     className="bg-emerald-600 text-white hover:bg-emerald-700"
                   >
-                    <Link href="/sign-up">Sign Up Now</Link>
+                    <Link href="/sign-in">Sign Up Now</Link>
                   </Button>
                   <Button
                     asChild
