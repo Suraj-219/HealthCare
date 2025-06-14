@@ -21,7 +21,7 @@ export default function Home() {
               "
               >Health Care Made Simple</Badge>
                   <h1
-                    className="text-6xl md:text-5xl lg:text-6xl font-black text-center relative z-10 bg-clip-text text-transparent"
+                    className="text-5xl md:text-5xl lg:text-6xl font-black text-center relative z-10 bg-clip-text text-transparent"
                     style={{
                       backgroundImage: `
                         linear-gradient(120deg, #00fff7, #8a00ff, #ff00aa)`,
