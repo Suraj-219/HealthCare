@@ -20,7 +20,23 @@ export default function Home() {
               text-sm font-medium
               "
               >Health Care Made Simple</Badge>
-              <h1 className="text-4xl md:text-5xl lg:text-6xl font-sans font-bold text-white leading-tight" style={{textShadow: '2px 2px #00C49A'}}>Revolutionize Your Health <br></br> <span className="gradient-title">with Cutting-Edge Care</span></h1>
+                  <h1
+                    className="text-4xl md:text-5xl lg:text-6xl font-black text-center relative z-10 bg-clip-text text-transparent"
+                    style={{
+                      backgroundImage: `
+                        linear-gradient(120deg, #00fff7, #8a00ff, #ff00aa)`,
+                      WebkitTextStroke: '1px rgba(255, 255, 255, 0.2)',
+                      textShadow: `
+                        2px 2px 10px rgba(0, 255, 247, 0.4),
+                        -2px -2px 10px rgba(138, 0, 255, 0.4),
+                        0 0 20px rgba(255, 0, 170, 0.3)`
+                    }}
+                  >
+                    Revolutionize Your Health <br />
+                    <span className="block text-white text-opacity-80 mt-2">
+                      with <span className="tracking-widest font-extrabold ">Cutting-Edge Care</span>
+                    </span>
+                  </h1>
               <p className="text-muted-foreground text-lg md:text-xl max-w-md">Schedule visits, consult with doctors online, and take control of your health — all through one trusted and convenient platform.</p>
               <div className="flex flex-col sm:flex-row gap-4">
               <Button

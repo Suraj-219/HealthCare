@@ -3,7 +3,7 @@ import "./globals.css";
 import { ThemeProvider } from "@/components/themeprovider";
 import Header from "@/components/header";
 import { ClerkProvider } from "@clerk/nextjs";
-import { dark } from "@clerk/themes";
+import { defaultTheme } from '@clerk/themes'
 import { Toaster } from "sonner";
 
 const inter = Inter({ subsets: ["latin"] });
@@ -21,7 +21,7 @@ export default function RootLayout({ children }) {
   const clerkConfig = {
     publishableKey: process.env.NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY,
     appearance: {
-      baseTheme: dark
+      baseTheme: [ defaultTheme],
     },
     signInUrl: '/sign-in',
     signUpUrl: '/sign-up'
