@@ -23,3 +23,21 @@ To run this project locally:
 ```bash
 git clone https://github.com/your-username/your-repo-name.git
 cd your-repo-name
+
+2. Install dependencies
+npm install
+# or
+yarn install
+# or
+pnpm install
+# or
+bun install
+3. Start the development server
+npm run dev
+# or
+yarn dev
+# or
+pnpm dev
+# or
+bun dev
+
