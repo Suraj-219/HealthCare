@@ -19,7 +19,7 @@ export default function Home() {
               className="bg-emerald-900/30 border-emerald-700/30 px-4 py-2 text-emerald-400
               text-sm font-medium
               "
-              >Health Care Made Simple</Badge>
+              >Health Care Made Easy</Badge>
                   <h1
                     className="text-5xl md:text-5xl lg:text-6xl font-black text-center relative z-10 bg-clip-text text-transparent"
                     style={{
