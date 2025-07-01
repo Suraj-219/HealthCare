@@ -106,7 +106,7 @@ export default function OnboardingPage() {
               healthcare journey
             </CardDescription>
             <Button
-              className="w-full mt-2 bg-emerald-600 hover:bg-emerald-700"
+              className="w-full mt-2 bg-gradient-to-r from-[#fda4af] to-[#fef2f2] hover:from-[#fef2f2] hover:to-[#fda4af]"
               disabled={loading}
             >
               {loading ? (
@@ -136,7 +136,7 @@ export default function OnboardingPage() {
               Generate your professional profile, set your availability, and provide consultations
             </CardDescription>
             <Button
-              className="w-full mt-2 bg-emerald-600 hover:bg-emerald-700"
+              className="w-full mt-2 bg-gradient-to-r from-[#fda4af] to-[#fef2f2] hover:from-[#fef2f2] hover:to-[#fda4af]"
               disabled={loading}
             >
               Continue as Doctor
@@ -253,7 +253,7 @@ export default function OnboardingPage() {
               </Button>
               <Button
                 type="submit"
-                className="bg-emerald-600 hover:bg-emerald-700"
+                className="bg-gradient-to-r from-[#fda4af] to-[#fef2f2] hover:from-[#fef2f2] hover:to-[#fda4af]"
                 disabled={loading}
               >
                 {loading ? (

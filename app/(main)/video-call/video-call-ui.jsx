@@ -187,7 +187,7 @@ export default function VideoCall({ sessionId, token }) {
         </p>
         <Button
           onClick={() => router.push("/appointments")}
-          className="bg-emerald-600 hover:bg-emerald-700"
+          className="bg-gradient-to-r from-[#fda4af] to-[#fef2f2] hover:from-[#fef2f2] hover:to-[#fda4af]"
         >
           Back to Appointments
         </Button>
@@ -213,7 +213,7 @@ export default function VideoCall({ sessionId, token }) {
               Virtual Meeting
             </span>
           </h1>
-          <p className="text-muted-foreground">
+          <p className="text-gray-900 text-lg">
             {isConnected
               ? "Connected"
               : isLoading
@@ -225,7 +225,7 @@ export default function VideoCall({ sessionId, token }) {
         {isLoading && !scriptLoaded ? (
           <div className="flex flex-col items-center justify-center py-12">
             <Loader2 className="h-12 w-12 text-emerald-400 animate-spin mb-4" />
-            <p className="text-white text-lg">
+            <p className="text-gray-900 text-lg">
               Loading video call components...
             </p>
           </div>

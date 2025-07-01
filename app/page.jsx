@@ -15,11 +15,12 @@ export default function Home() {
           <div className="container mx-auto px-4">
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
               <div className="space-y-8">
-              <Badge variant="default |outline | secondary | destructive"
-              className="bg-emerald-900/30 border-emerald-700/30 px-4 py-2 text-emerald-400
-              text-sm font-medium
-              "
-              >Health Care Made Easy</Badge>
+              <Badge
+                variant="default"
+                className="bg-gradient-to-r from-[#38bdf8] to-[#2563eb] text-black py-2 text-sm font-medium"
+              >
+                Health Care Made Easy
+              </Badge>
                   <h1
                     className="text-5xl md:text-5xl lg:text-6xl font-black text-center relative z-10 bg-clip-text text-transparent"
                     style={{
@@ -42,7 +43,7 @@ export default function Home() {
               <Button
                   asChild
                   size="lg"
-                  className="bg-emerald-600 text-white hover:bg-emerald-700"
+                  className="bg-gradient-to-r from-[#fda4af] to-[#fef2f2] text-black hover:from-[#fef2f2] hover:to-[#fda4af]"
                 >
                   <Link href="/onboarding">
                     Get Started <ArrowRight className="ml-2 h-4 w-4" />
@@ -246,7 +247,7 @@ export default function Home() {
                   <Button
                     asChild
                     size="lg"
-                    className="bg-emerald-600 text-white hover:bg-emerald-700"
+                    className="bg-gradient-to-r from-[#fda4af] to-[#fef2f2] text-black hover:from-[#fef2f2] hover:to-[#fda4af]"
                   >
                     <Link href="/sign-in">Sign Up Now</Link>
                   </Button>

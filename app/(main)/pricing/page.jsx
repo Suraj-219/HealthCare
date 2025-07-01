@@ -1,4 +1,3 @@
-
 import Link from "next/link";
 import { ArrowLeft} from "lucide-react";
 import { Badge } from "@/components/ui/badge";
@@ -11,7 +10,7 @@ export default async function PricingPage() {
       <div className="flex justify-start mb-2">
         <Link
           href="/"
-          className="flex items-center text-muted-foreground hover:text-white transition-colors"
+          className="flex items-center text-muted-foreground hover:text-gray-900 transition-colors"
         >
           <ArrowLeft className="h-4 w-4 mr-2" />
           Go to Home

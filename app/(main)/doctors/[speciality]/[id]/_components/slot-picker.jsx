@@ -110,7 +110,7 @@ export function SlotPicker({ days, onSelectSlot }) {
         <div className="flex justify-end">
           <Button
             onClick={confirmSelection}
-            className="bg-emerald-600 hover:bg-emerald-700"
+            className="bg-gradient-to-r from-[#fda4af] to-[#fef2f2] hover:from-[#fef2f2] hover:to-[#fda4af]"
           >
             Confirm Time Slot
             <ChevronRight className="ml-2 h-4 w-4" />

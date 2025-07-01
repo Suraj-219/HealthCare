@@ -11,10 +11,11 @@ import { Badge } from './ui/badge'
 const Header = async () => {
 
  const user = await checkUser()
-if(user?.role === "PATIENT"){
-  await checkAndAllocateCredits(user)
-
-}
+ // Removed checkAndAllocateCredits from render to fix Next.js revalidatePath error.
+ // If you need to allocate credits, do it in a server action, API route, or user-triggered event, not during render.
+// if(user?.role === "PATIENT"){
+//   await checkAndAllocateCredits(user)
+// }
 
 
   return (
@@ -128,7 +129,7 @@ if(user?.role === "PATIENT"){
 
             <SignedOut>
               <SignInButton>
-                <Button variant="secondary" className="cursor-pointer bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-full transform transition-transform duration-200 hover:scale-110 hover:shadow-lg">Sign In</Button>
+                <Button variant="secondary" className="cursor-pointer bg-gradient-to-r from-[#fda4af] to-[#fef2f2] hover:from-[#fef2f2] hover:to-[#fda4af] text-white font-bold py-2 px-4 rounded-full transform transition-transform duration-200 hover:scale-110 hover:shadow-lg">Sign In</Button>
               </SignInButton>
               
             </SignedOut>

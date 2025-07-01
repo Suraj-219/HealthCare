@@ -141,7 +141,7 @@ export function AvailabilitySettings({ slots }) {
 
             <Button
               onClick={() => setShowForm(true)}
-              className="w-full bg-emerald-600 hover:bg-emerald-700"
+              className="w-full bg-gradient-to-r from-[#fda4af] to-[#fef2f2] hover:from-[#fef2f2] hover:to-[#fda4af]"
             >
               <Plus className="h-4 w-4 mr-2" />
               Set Availability Time
@@ -203,7 +203,7 @@ export function AvailabilitySettings({ slots }) {
               <Button
                 type="submit"
                 disabled={loading}
-                className="bg-emerald-600 hover:bg-emerald-700"
+                className="bg-gradient-to-r from-[#fda4af] to-[#fef2f2] hover:from-[#fef2f2] hover:to-[#fda4af]"
               >
                 {loading ? (
                   <>

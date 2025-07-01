@@ -283,7 +283,7 @@ export function AppointmentCard({
                     size="sm"
                     onClick={handleMarkCompleted}
                     disabled={completeLoading}
-                    className="bg-emerald-600 hover:bg-emerald-700"
+                    className="bg-gradient-to-r from-[#fda4af] to-[#fef2f2] hover:from-[#fef2f2] hover:to-[#fda4af]"
                   >
                     {completeLoading ? (
                       <Loader2 className="h-4 w-4 animate-spin" />
@@ -417,7 +417,7 @@ export function AppointmentCard({
                   Video Consultation
                 </h4>
                 <Button
-                  className="w-full bg-emerald-600 hover:bg-emerald-700"
+                  className="w-full bg-gradient-to-r from-[#fda4af] to-[#fef2f2] hover:from-[#fef2f2] hover:to-[#fda4af]"
                   disabled={
                     !isAppointmentActive() || action === "video" || tokenLoading
                   }
@@ -487,7 +487,7 @@ export function AppointmentCard({
                       size="sm"
                       onClick={handleSaveNotes}
                       disabled={notesLoading}
-                      className="bg-emerald-600 hover:bg-emerald-700"
+                      className="bg-gradient-to-r from-[#fda4af] to-[#fef2f2] hover:from-[#fef2f2] hover:to-[#fda4af]"
                     >
                       {notesLoading ? (
                         <>
@@ -523,7 +523,7 @@ export function AppointmentCard({
                 <Button
                   onClick={handleMarkCompleted}
                   disabled={completeLoading}
-                  className="bg-emerald-600 hover:bg-emerald-700"
+                  className="bg-gradient-to-r from-[#fda4af] to-[#fef2f2] hover:from-[#fef2f2] hover:to-[#fda4af]"
                 >
                   {completeLoading ? (
                     <>
@@ -564,7 +564,7 @@ export function AppointmentCard({
 
             <Button
               onClick={() => setOpen(false)}
-              className="bg-emerald-600 hover:bg-emerald-700"
+              className="bg-gradient-to-r from-[#fda4af] to-[#fef2f2] hover:from-[#fef2f2] hover:to-[#fda4af]"
             >
               Close
             </Button>
