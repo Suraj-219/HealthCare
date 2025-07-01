@@ -22,6 +22,9 @@ export default function RootLayout({ children }) {
     publishableKey: process.env.NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY,
     appearance: {
       baseTheme: [ defaultTheme],
+      elements: {
+        formButtonPrimary: 'text-black',
+      },
     },
     signInUrl: '/sign-in',
     signUpUrl: '/sign-up'

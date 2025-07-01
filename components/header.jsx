@@ -129,7 +129,7 @@ const Header = async () => {
 
             <SignedOut>
               <SignInButton>
-                <Button variant="secondary" className="cursor-pointer bg-gradient-to-r from-[#fda4af] to-[#fef2f2] hover:from-[#fef2f2] hover:to-[#fda4af] text-white font-bold py-2 px-4 rounded-full transform transition-transform duration-200 hover:scale-110 hover:shadow-lg">Sign In</Button>
+                <Button variant="secondary" className="cursor-pointer bg-gradient-to-r from-[#fda4af] to-[#fef2f2] hover:from-[#fef2f2] hover:to-[#fda4af] text-black font-bold py-2 px-4 rounded-full transform transition-transform duration-200 hover:scale-110 hover:shadow-lg">Sign In</Button>
               </SignInButton>
               
             </SignedOut>
