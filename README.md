@@ -1,16 +1,43 @@
-# 🚀 Next.js Starter Project
 
-This project is a modern, high-performance web application built using [Next.js](https://nextjs.org), the React framework for production. It was bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# 🚀 Online Doctor Consultation & Appointment Scheduler
+
+A modern, full-stack web application built using **Next.js** to simplify healthcare access. This system allows patients to book doctor consultations online through a real-time, credit-based scheduling platform with secure video calls and digital medical records.
+
+🔗 **Live Site:** [healthtocare.vercel.app](https://healthtocare.vercel.app)  
+🔗 **GitHub Repository:** [View Repo](https://github.com/your-username/your-repo-name)
+
+---
+
+## 📌 Project Highlights
+
+- 👩‍⚕️ **Doctor-Patient Marketplace** with real-time scheduling
+- 💳 **Credit-based Payment System**
+- 🔐 **Secure Authentication** via Clerk.dev
+- 📹 **Vonage Video API** for virtual consultations
+- 📊 **Admin Panel** for verification & monitoring
+- 🧾 **Digital Health Records** for each consultation
+- 📱 **Fully Responsive UI** using Tailwind CSS and Shadcn UI
+- ⚙️ **Deployed seamlessly** on Vercel
+
+---
+
+## 🏗️ Tech Stack
+
+| Area         | Technology Used                           |
+|--------------|--------------------------------------------|
+| Frontend     | Next.js 13+, Tailwind CSS, Shadcn UI       |
+| Backend      | Next.js API Routes, Node.js, Prisma        |
+| Database     | NeonDB (PostgreSQL) via Prisma ORM         |
+| Auth         | Clerk.dev (role-based login)               |
+| Video Calls  | Vonage (OpenTok)                           |
+| Hosting      | Vercel                                     |
+| Payments     | Stripe (via Clerk Wallet integration)      |
 
 ---
 
 ## 📂 Project Structure
 
-- **app/**: Routing and layout structure (Next.js App Router)
-- **public/**: Static assets
-- **styles/**: Global and modular CSS
-- **next.config.js**: Configuration file for Next.js
-- **package.json**: Project dependencies and scripts
+. ├── app/                  # App router structure ├── public/               # Static assets ├── styles/               # Tailwind and module CSS ├── components/           # UI and shared components ├── prisma/               # Database schema and seed ├── pages/api/            # API routes for booking, credits ├── next.config.js        # Next.js config ├── package.json          # Dependencies and scripts
 
 ---
 
@@ -18,13 +45,11 @@ This project is a modern, high-performance web application built using [Next.js]
 
 To run this project locally:
 
-### 1. Clone the repo
-
 ```bash
 git clone https://github.com/your-username/your-repo-name.git
 cd your-repo-name
 
-2. Install dependencies
+# Install dependencies
 npm install
 # or
 yarn install
@@ -32,50 +57,110 @@ yarn install
 pnpm install
 # or
 bun install
-3. Start the development server
+
+# Run development server
 npm run dev
 # or
-
-🧱 Features
-✅ Built with Next.js 13+ (App Router)
-
-⚡ Server-Side Rendering & Static Site Generation
-
-💅 Styled using CSS modules or Tailwind (optional)
-
-🌐 SEO-ready with built-in optimization
-
-🔤 Optimized Fonts using next/font
-
-🚀 Deployed easily with Vercel
-
-📁 Modify Pages
-Start editing by modifying the app/page.js file. The browser will auto-refresh as you save the file.
-
-📚 Learn More
-📘 Next.js Docs — complete guide to Next.js
-
-🎓 Learn Next.js — free interactive learning platform
-
-🔗 GitHub Repo — Next.js on GitHub
-
-🚀 Deploying on Vercel
-Deploy your Next.js app in seconds using the Vercel platform, created by the creators of Next.js.
-
-For more information, refer to the Next.js deployment documentation.
-
-📄 License
-This project is licensed under the MIT License. Feel free to use, modify, and distribute.
-
-Crafted with ❤️ using Next.js
-
-yaml
-Copy
-Edit
-
 yarn dev
 # or
 pnpm dev
 # or
 bun dev
+
+Visit http://localhost:3000 in your browser.
+
+
+---
+
+💼 Use Cases
+
+🔍 Patients: Book, manage, and attend appointments from home
+
+👨‍⚕️ Doctors: Manage slots, attend calls, withdraw earnings
+
+🛠 Admin: Verify users, manage disputes, view analytics
+
+
+
+---
+
+✅ Core Features
+
+🔄 Real-time appointment slots
+
+📩 Email/SMS confirmation and reminders
+
+🧑‍⚕️ Doctor filtering by specialization and ratings
+
+📁 Upload prescriptions and consultation notes
+
+💼 Wallet for earnings and secure withdrawals
+
+🔐 Encrypted user data and role-based access
+
+📱 Responsive design for mobile and desktop
+
+
+
+---
+
+🔐 Security & Privacy
+
+🔒 HTTPS with Clerk Authentication
+
+🔑 Multi-Factor Authentication (MFA) supported
+
+🧾 Compliant with basic healthcare privacy practices
+
+
+
+---
+
+👨‍💻 Project Team
+
+Suman Kar – Portfolio
+
+Pallavi Jha – LinkedIn
+
+
+Special thanks to my teammate Pallavi for handling the UI design part with great dedication. Your frontend skills elevated the user experience!
+
+
+---
+
+📚 References & Resources
+
+Next.js Docs
+
+Tailwind CSS Docs
+
+Clerk Auth
+
+Shadcn UI
+
+Prisma ORM
+
+NeonDB
+
+Vonage Video API
+
+Stripe Docs
+
+Vercel Hosting
+
+
+
+---
+
+📄 License
+
+This project is licensed under the MIT License — feel free to use, fork, and build upon it.
+
+
+---
+
+Crafted with ❤️ using Next.js
+
+---
+
 
