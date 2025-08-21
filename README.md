@@ -37,7 +37,15 @@ A modern, full-stack web application built using **Next.js** to simplify healthc
 
 ## 📂 Project Structure
 
-. ├── app/                  # App router structure ├── public/               # Static assets ├── styles/               # Tailwind and module CSS ├── components/           # UI and shared components ├── prisma/               # Database schema and seed ├── pages/api/            # API routes for booking, credits ├── next.config.js        # Next.js config ├── package.json          # Dependencies and scripts
+. ├── app/                  
+# App router structure ├── public/              
+# Static assets ├── styles/               
+# Tailwind and module CSS ├── components/          
+# UI and shared components ├── prisma/              
+# Database schema and seed ├── pages/api/            
+# API routes for booking, credits ├── next.config.js        
+# Next.js config ├── package.json          
+# Dependencies and scripts
 
 ---
 
@@ -118,8 +126,9 @@ Visit http://localhost:3000 in your browser.
 
 👨‍💻 Project Team
 
-1. Suman Kar – Portfolio
-2. Pallavi Jha – LinkedIn
+Suman Kar – Portfolio
+
+Pallavi Jha – LinkedIn
 
 
 Special thanks to my teammate Pallavi for handling the UI design part with great dedication. Your frontend skills elevated the user experience!
