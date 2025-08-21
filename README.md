@@ -159,7 +159,7 @@ This project is licensed under the MIT License — feel free to use, fork, and b
 
 ---
 
-Crafted with ❤️ using Next.js
+#  Crafted with ❤️ using Next.js
 
 ---
 
